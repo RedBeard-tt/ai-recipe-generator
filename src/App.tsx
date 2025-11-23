@@ -4,7 +4,7 @@ import "./App.css";
 import { Amplify } from "aws-amplify";
 
 // IMPORTANT FIX — type import + correct relative path
-import type { Schema } from "../amplify/data/resource";
+import type { Schema } from "../amplify/data/resource.ts";
 
 import { generateClient } from "aws-amplify/data";
 import outputs from "../amplify_outputs.json";
